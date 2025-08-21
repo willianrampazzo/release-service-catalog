@@ -32,7 +32,7 @@ spec:
     - name: collectorsRepository
       type: string
       description: Git repository where the collectors will be defined
-      default: https://github.com/konflux-ci/release-service-collectors.git
+      default: https://github.com/willianrampazzo/release-service-collectors.git
     - name: collectorsRepositoryRevision
       type: string
       description: Git repository revision
@@ -40,7 +40,7 @@ spec:
     - name: taskGitUrl
       type: string
       description: The url to the git repo where the release-service-catalog tasks to be used are stored
-      default: https://github.com/konflux-ci/release-service-catalog.git
+      default: https://github.com/willianrampazzo/release-service-catalog.git
     - name: taskGitRevision
       type: string
       description: The revision in the taskGitUrl repo to be used
